@@ -42,6 +42,7 @@ header h1 {
   margin: 20px;
   padding: 10px;
   color: white;
+  text-align: center;
   background: #342e70;
 }
 .container-cd .cd img {
