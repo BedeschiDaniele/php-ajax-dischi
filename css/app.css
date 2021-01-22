@@ -8,11 +8,6 @@ body {
   background-color: #5F57EA;
 }
 
-h1 {
-  margin-left: 10px;
-  color: white;
-}
-
 header {
   display: flex;
   align-items: center;
@@ -22,4 +17,8 @@ header {
 }
 header img {
   width: 70px;
+}
+header h1 {
+  margin-left: 10px;
+  color: white;
 }

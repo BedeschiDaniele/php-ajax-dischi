@@ -8,10 +8,6 @@ body {
   background-color: #5F57EA;
 }
 
-h1 {
-  margin-left: 10px;
-  color: white;
-}
 header {
   display: flex;
   align-items: center;
@@ -19,6 +15,14 @@ header {
   height: 80px;
   background-color: black;
    img {
-  width: 70px;
+    width: 70px;
   }
+  h1 {
+    margin-left: 10px;
+    color: white;
+  }
+}
+
+.container-cd {
+
 }
