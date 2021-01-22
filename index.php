@@ -18,7 +18,6 @@
     <main>
       <?php
         include __DIR__ .'/partials/db.php';
-        // var_dump($cd);
       ?>
       <div class="container-cd">
         <?php foreach ($cd as $value) {?>
@@ -27,8 +26,9 @@
             <h3><?php echo $value["author"]?></h3>
             <span><?php echo $value["title"]?></span>
             <span><?php echo $value["year"]?></span>
-        <?php } ?>
           </div>
+        <?php } ?>
+
       </div>
     </main>
   </body>
