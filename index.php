@@ -21,14 +21,14 @@
         // var_dump($cd);
       ?>
       <div class="container-cd">
-        <div class="cd">
-          <?php foreach ($cd as $value) {?>
+        <?php foreach ($cd as $value) {?>
+          <div class="cd">
             <img src="<?php echo $value["poster"]?>" alt="img">
             <h3><?php echo $value["author"]?></h3>
             <span><?php echo $value["title"]?></span>
             <span><?php echo $value["year"]?></span>
         <?php } ?>
-        </div>
+          </div>
       </div>
     </main>
   </body>
