@@ -22,3 +22,31 @@ header h1 {
   margin-left: 10px;
   color: white;
 }
+
+.container-cd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  padding: 100px 0;
+}
+.container-cd .cd {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 380px;
+  flex-basis: 200px;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+  background: #342e70;
+}
+.container-cd .cd img {
+  width: 160px;
+}
+.container-cd .cd #title {
+  font-size: 22px;
+}

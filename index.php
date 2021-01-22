@@ -24,11 +24,10 @@
           <div class="cd">
             <img src="<?php echo $value["poster"]?>" alt="img">
             <h3><?php echo $value["author"]?></h3>
-            <span><?php echo $value["title"]?></span>
+            <span id="title"><?php echo $value["title"]?></span>
             <span><?php echo $value["year"]?></span>
           </div>
         <?php } ?>
-
       </div>
     </main>
   </body>
