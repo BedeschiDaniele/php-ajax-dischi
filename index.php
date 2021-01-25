@@ -1,7 +1,6 @@
 <?php
-
+  include __DIR__ .'/db.php';
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -16,9 +15,6 @@
        <h1>eSound</h1>
     </header>
     <main>
-      <?php
-        include __DIR__ .'/partials/db.php';
-      ?>
       <div class="container-cd">
         <?php foreach ($cd as $value) {?>
           <div class="cd">
