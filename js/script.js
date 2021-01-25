@@ -1856,7 +1856,6 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0__.default({
     var self = this;
     axios.get("http://localhost/php-ajax-dischi/server.php").then(function (response) {
       self.all_cd = response.data;
-      console.log(self.all_cd);
     });
   }
 });

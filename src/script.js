@@ -14,7 +14,6 @@ var app = new Vue (
       .then(
         function (response) {
           self.all_cd = response.data;
-          console.log(self.all_cd);
         }
       );
     }
